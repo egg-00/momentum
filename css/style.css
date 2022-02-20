@@ -1,0 +1,109 @@
+@import "reset.css";
+
+.hidden {
+  display: none;
+}
+
+#clock {
+  font-size: 170px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#clock__left {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#clock__hhmm {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin-top: auto;
+}
+
+.ampmsec {
+  margin-top: 0px; 
+  margin-left: 20px;
+  margin-bottom: 0px;
+  font-size: 54px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: auto; */
+  justify-content: space-between;
+}
+
+#ampm, #sec {
+  margin-top: auto;
+}
+
+#ampm {
+  opacity: 80%;
+}
+
+#yyyymmdd {
+  margin-top: 20px;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.class-body {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  /* justify-content: space-between; */
+  /* overflow: hiddens; */
+  /* width: 100vh; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+.login-form {
+  margin-top: 60px;
+}
+
+.login-form input:first-child {
+  font-size: 30px;
+  color: white;
+  /* border-bottom:1 solid white; */
+  border-bottom: 3px solid white;
+}
+
+input {
+  border: none;
+  background: transparent;
+}
+
+input::placeholder {
+  color: white;
+  font-style: italic;
+}
+
+.background-image {
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.footer {
+  position: fixed; 
+  bottom: 10px; 
+  width: 100%;
+  /* align-items:end; */
+  text-align: right;
+}
