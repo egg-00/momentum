@@ -17,4 +17,5 @@ function onGeoError() {
   alert("Can't find you. No weather for you.");
 }
 
+weather.innerText = "now loading...";
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);

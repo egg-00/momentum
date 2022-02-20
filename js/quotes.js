@@ -14,8 +14,7 @@ const quotes = [
     author: "루이스 E. 분",
   },
   {
-    quote:
-      "같은 실수를 두려워하되 새로운 실수를 두려워하지 마라. 실수는 곧 경험이다. ",
+    quote: "같은 실수를 두려워하되 새로운 실수를 두려워하지 마라.",
     author: "도서 ‘어떤 하루’ 中",
   },
   {
@@ -30,4 +29,4 @@ const author = document.querySelector("#quote span:last-child");
 const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todayQuote.quote;
-author.innerText = todayQuote.author;
+author.innerText = "-" + todayQuote.author;

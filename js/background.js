@@ -1,4 +1,4 @@
-const backgroundImage = ["지중해.jpeg"];
+const backgroundImage = ["MediterraneanSea.jpeg", "newyork.jpeg", "seoul.jpeg"];
 
 const todayBgimg =
   backgroundImage[Math.floor(Math.random() * backgroundImage.length)];
