@@ -9,4 +9,3 @@ bgImage.classList.add("background-image");
 bgImage.src = `img/${todayBgimg}`;
 
 document.body.appendChild(bgImage);
-// window.appendChild(bgImage);
